@@ -15,10 +15,10 @@ export function ProfilesSection() {
           <b>5</b><span>projects built and showcased, including prototypes still in development.</span><small>PROJECTS</small>
         </motion.div>
         <motion.a className="milestone-card" data-scroll-reveal href={SITE.github} target="_blank" rel="noopener noreferrer" whileHover={{ y: -5 }}>
-          <b>GH <ArrowUpRight size={24} /></b><span>Source code, experiments, and open-source work.</span><small>GITHUB</small>
+          <b><Github size={25} /> <ArrowUpRight size={24} /></b><span>Source code, experiments, and open-source work.</span><small>GITHUB</small>
         </motion.a>
         <motion.a className="milestone-card" data-scroll-reveal href={SITE.linkedin} target="_blank" rel="noopener noreferrer" whileHover={{ y: -5 }}>
-          <b>in <ArrowUpRight size={24} /></b><span>Professional profile and background.</span><small>LINKEDIN</small>
+          <b><Linkedin size={25}></Linkedin> <ArrowUpRight size={24} /></b><span>Professional profile and background.</span><small>LINKEDIN</small>
         </motion.a>
       </div>
     </section>
