@@ -80,8 +80,8 @@ export default function ProjectsSection({ lenisRef }) {
       <SectionHeading
         number="03"
         label="Selected work"
-        title="Four projects,"
-        emphasis="five small universes"
+        title="Six projects,"
+        emphasis="seven small universes"
         description="Each project has its own world. Open Details for the problem, features, and honest status."
       />
       <ol className="projects-grid">
